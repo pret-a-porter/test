@@ -1,0 +1,16 @@
+.page {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.filter {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.listWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
