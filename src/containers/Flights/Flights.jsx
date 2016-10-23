@@ -18,10 +18,6 @@ class Flights extends Component {
     this.shouldComponentUpdate = PureRenderMixin.shouldComponentUpdate.bind(this);
 
     this.changeFilterHandler = this.changeFilterHandler.bind(this);
-
-    this.state = {
-      selectedCarrier: null
-    };
   }
 
   componentWillMount() {
