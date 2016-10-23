@@ -39,8 +39,7 @@ App.propTypes = {
 
 function mapStateToProps (state) {
   return {
-    errorMessage: state.errorMessage.get('errorMessage'),
-    isFetching: state.flights.get('isFetching')
+    errorMessage: state.errorMessage.get('errorMessage')
   }
 }
 
