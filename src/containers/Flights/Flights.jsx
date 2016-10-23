@@ -71,7 +71,7 @@ class Flights extends Component {
     return (
       <div className={style.page}>
         <div className={style.filter}>
-          <Filter value={query.carrier} options={this.getFilterOptions()} changeHandler={this.changeFilterHandler}/>
+          <Filter value={query.carrier || ''} options={this.getFilterOptions()} changeHandler={this.changeFilterHandler}/>
         </div>
         <div className={style.listWrapper}>
           {data.map(item =>
